@@ -15,7 +15,7 @@ const data = [
 
 const Charts = () => {
   return (
-    <div className="m-5">
+    <div>
       <div className="border p-5 my-5">
         <LineChart width={400} height={400} data={data}>
           <Line type="monotone" dataKey="uv" stroke="#8884d8" />

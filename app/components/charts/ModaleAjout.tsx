@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
@@ -10,6 +9,8 @@ import {
 import { Input } from "@/components/ui/input";
 
 const ModaleAjout = () => {
+  const putWeigth = () => {};
+
   return (
     <Card>
       <CardHeader>
@@ -19,7 +20,7 @@ const ModaleAjout = () => {
         <Input />
       </CardContent>
       <CardFooter>
-        <Button>Valider</Button>
+        <Button onClick={putWeigth}>Valider</Button>
       </CardFooter>
     </Card>
   );
